@@ -1,0 +1,12 @@
+{
+  "agentId": "nethforta-3",                         /* Globally unique agent identifier e.g. my-new-agent */
+  "version": "0.1.0",                    /* Agent version */
+"jsonRpcUrl": "https://mainnet.infura.io/v3/23Vldg6W88pm8TiFR9w7mYCIjhc",                      /* JSON-RPC url for running agent during development e.g. wss://mainnet.infura.io/ws/v3/YOUR_API_KEY */
+  // "imageRepositoryUrl": "",              /* Container image repository for publishing agent images */
+  // "agentRegistryContractAddress": "",    /* Contract address for agent registry */
+  // "agentRegistryJsonRpcUrl": "",         /* JSON-RPC url of the network hosting agent registry contract */
+   "ipfsGatewayUrl": "https://ipfs.infura.io:5001",                  /* IPFS gateway API for publishing agent manifest e.g. https://ipfs.infura.io:5001 */
+  "ipfsGatewayAuth":"MjNWbGRnNlc4OHBtOFRpRlI5dzdtWUNJamhjOmY3ZTVjYjY5ODhkZGUzMWZiODQ2ZDQ4OGFhNzE4YmRjDQo=",                 /* Authorization header, if IPFS gateway requires it */
+  "handlers": ["./dist"] /* Paths to agent handlers */
+  // "debug": true                          /* Debug flag for additional console logging */
+}
